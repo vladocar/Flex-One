@@ -33,7 +33,9 @@
 
 <p> When you are finished add the .clear class.</p>
 
-<p><a href="https://vladocar.github.io/Flex-One/"> Here is the Demo Grid</a>
+<p><a href="https://vladocar.github.io/Flex-One/"> Here is the Demo Grid</a></p> 
+
+<p><a href="https://vladocar.github.io/Flex-One/demo.html"> Here is clear dynamic example on how .fluid {flex:1} works </a></p>
 
 <h4>Limitations? Yes, many. </h4>
 
