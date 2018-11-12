@@ -33,7 +33,7 @@
 
 <p> When you are finished add the .clear class.</p>
 
-<p><a here="#"> Here is the demo Grid</a>
+<p><a href="https://vladocar.github.io/Flex-One/"> Here is the demo Grid</a>
 
 <h4>Limitations? Yes, many. </h4>
 
