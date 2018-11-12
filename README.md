@@ -105,7 +105,7 @@ Now we can have this 1-1-1-3:
 <div class="fluid"></div>
 </div>
 ```
-<p><a href="https://vladocar.github.io/Flex-One/fluid2.html"> Demo Complete Grid</a></p>
+<p><a href="https://vladocar.github.io/Flex-One/fluid1.html"> Demo Complete Grid</a></p>
 
 <h4>Conclusion</h4>
 
