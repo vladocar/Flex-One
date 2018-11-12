@@ -33,7 +33,7 @@
 
 <p> When you are finished add the .clear class.</p>
 
-<p><a href="https://vladocar.github.io/Flex-One/"> Here is the demo Grid</a>
+<p><a href="https://vladocar.github.io/Flex-One/"> Here is the Demo Grid</a>
 
 <h4>Limitations? Yes, many. </h4>
 
@@ -105,6 +105,7 @@ Now we can have this 1-1-1-3:
 <div class="fluid"></div>
 </div>
 ```
+<p><a href="https://vladocar.github.io/Flex-One/fluid2.html"> Demo Complete Grid</a></p>
 
 <h4>Conclusion</h4>
 
