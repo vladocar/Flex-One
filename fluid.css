@@ -1,0 +1,16 @@
+* {box-sizing: border-box}
+
+.main{display: flex; flex-flow: row wrap; width: 80%; margin: 0 auto}
+
+.fluid{flex:1}
+
+.merge2{flex:2}
+.merge3{flex:3}
+.merge4{flex:4}
+/* add more .merge classes if you need to */
+
+.fluid,.merge2,.merge3,.merge4 {margin:0 0 0 15px} /* optional gutter */
+
+.clear,.columns{width: 100%}
+
+.nested,.columns{display: flex; flex-flow: row wrap; padding:0 !important; margin:0 !important; border: 0 !important}

@@ -1,0 +1,17 @@
+$m: 15px;
+$n: 11;
+
+* {box-sizing: border-box}
+
+.main{display: flex; flex-flow: row wrap;  width: 94%; margin: 0 auto}
+
+.fluid{flex:1; margin: 0 0 0 $m}
+
+@for $i from 2 through $n {
+    .merge#{$i} {
+        flex:#{$i};  margin:0 0 0 $m}
+}
+
+.clear,.columns{width: 100%}
+
+.nested,.columns{display: flex; flex-flow: row wrap; padding:0 !important; margin:0 !important; border: 0 !important}
