@@ -15,6 +15,7 @@
 
 .clear{width: 100%}
 ```
+<p>This CSS is the base for everything. With this CSS you can build solid Grid System. </p>
 
 ```shell
 <div class="fluid">33,3%</div>
@@ -109,6 +110,11 @@ Now we can have this 1-1-1-3:
 ```
 <p><a href="https://vladocar.github.io/Flex-One/fluid1.html"> Demo Complete Grid</a></p>
 
+<p>Complete version of the CSS code is included in fluid.css and fluid.scss file</p>
+
 <h4>Conclusion</h4>
 
 <p> Starting with the .fluid{flex:1} class and by adding few other CSS classes we can build infinite column grid system that is fluid and responsive.
+    
+<h3>License</h3>
+<p>This project is licensed under the MIT License</p>
