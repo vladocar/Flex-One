@@ -22,7 +22,7 @@
 
         .main{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto}
 
-        .fluid{flex:1;}
+        .fluid{flex:1}
 
         .clear{width: 100%}
 
@@ -33,6 +33,8 @@
             margin: 10px 0 10px 15px;
             text-align: center;
         }
+        
+        code{text-align: left;}
 
     </style>
 </head>
@@ -89,16 +91,24 @@
         <div class="fluid"><p>Flex One is Infinite Grid System based on the Flex CSS Layout</p></div>
         <div class="clear"></div>
 
-        <div class="fluid"><p>Everything is based on this class: <b>.fluid {flex:1}</b> </p></div>
+        <div class="fluid"><p>The layout is based on this class: <b>.fluid {flex:1}</b> </p></div>
         <div class="clear"></div>
 
         <div class="fluid"><p>There are also the .main container class and the .clear class. And that is it.</p></div>
         <div class="clear"></div>
         
-        <div class="fluid"><p>Everything here is made with only 3 CSS classes. </p></div>
+        <div class="fluid"><p>Everything here was made with only 3 CSS classes. </p></div>
         <div class="clear"></div>
 <div class="fluid">
         <code><pre>
+     
+     // This is all the CSS:
+     
+     .main{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto}
+
+     .fluid{flex:1}
+
+     .clear{width: 100%}
 
     // Just add any number of .fluid columns like this:
 
