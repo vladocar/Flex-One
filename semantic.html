@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Flex One -  1 CSS Class System</title>
+    <style>
+        * {box-sizing: border-box}
+
+        body {
+            margin: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        h1 {
+            font-size: 32px;
+            font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", Arial, sans-serif;
+            font-weight: 200;
+            font-stretch: normal;
+        }
+
+        .column{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto}
+
+        .row{flex:1}
+
+
+        .row {
+            border: 1px solid #e56e6e;
+            color: #1577ca;
+            padding: 10px;
+            margin: 10px 0 10px 15px;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+        <div class="column">
+        <div class="row"> <h1>Flex One - 1 CSS Class System</h1></div>
+        </div>
+
+        <div class="column">
+        <div class="row"> <p> .row {flex:1}</p></div>
+        </div>
+
+        <div class="column">
+        <div class="row">50%</div>
+        <div class="row">50%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">33,3%</div>
+        <div class="row">33,3%</div>
+        <div class="row">33,3%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        <div class="row">25%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        <div class="row">20%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        <div class="row">16,66%</div>
+        </div>
+
+        <div class="column">
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        <div class="row">12,5%</div>
+        </div>
+
+        <div class="column">
+        <div class="row" style="text-align:left">
+          <p> This layout uses only the .row and .column class:</p>
+          <p>.column{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto} <br><br>
+
+            .row{flex:1}
+        </p>
+        </div>
+        </div>
+
+
+        <div class="column">
+        <div class="row"><p><a href="https://github.com/vladocar/Flex-One">Download on Github </a></p></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
