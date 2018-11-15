@@ -139,3 +139,5 @@ Now we can have this 1-1-1-3:
 ....
 </div>
 ```
+
+<p><a href="https://vladocar.github.io/Flex-One/semantic.html">Demo Semantic Grid</a></p>
