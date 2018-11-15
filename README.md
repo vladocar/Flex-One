@@ -118,3 +118,24 @@ Now we can have this 1-1-1-3:
     
 <h3>License</h3>
 <p>This project is licensed under the MIT License</p>
+
+<h3>P.S</h3>
+
+<p>We can push the system even further and use only 2 classes .column and .row and make it more semantic.</p>
+
+```shell
+
+// Just 2 classes for the layout
+
+.column{display: flex; flex-flow: row wrap;  width: 80%; margin: 0 auto}
+.row{flex:1}
+
+// Use the HTML like this:
+
+<div class="column">
+<div class="row"></div>
+<div class="row"></div>
+<div class="row"></div>
+....
+</div>
+```
